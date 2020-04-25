@@ -1,0 +1,95 @@
+/* Default CSS file */
+.home-sep-stra { border: 2px solid #f72503; }
+.header-left-b {
+    padding: 60px 0 0 0;
+}
+
+.header-right-b {
+    background-image: url(/wp-content/uploads/2016/12/Sans-titre-1.png);
+    padding: 60px 0 100px 0;
+    background-size: cover;
+    background-position-y: 80%;
+}
+
+.header-right-b .intro-text {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #777;
+    padding: 0px 0 200px 20px;
+    font-weight: bolder;
+    width: 70%;
+}
+
+.header-left-b .intro-text {
+    font-size: 0.8em;
+    color: #777;   
+}
+
+
+.header-right-b .intro-text span {
+    color: #777;
+}
+
+.header-left-b .intro-text {
+    width: 80%;
+    text-align: left;
+}
+
+.header-left-b .intro-text .digital-home-title a {
+    color: #f72503;
+    background-color: #fff;
+    border-color: #f72503;
+    font-size: 1.3em;
+    float: left;
+}
+footer .footer-above {padding-top:0px;}
+.clock {width: 120px; height:120px;}
+.service-container p { font-size: 1.2em; }
+.image .caption-text h1 { font-size: 22px; font-weight: 500; }
+.image .caption-text { top:100px; }
+#services .service-data h4 { height: 50px; }
+.service-description { height: 65px; }
+.client-figure img { width: 100%;}
+header .container {padding-bottom: 35px; }
+.grid figcaption p {font-size: 13px; }
+.search-form form input { background-color: #f2f2f2; font-weight: 300;}
+.navbar-custom .navbar-nav li a {font-size:0.9em; }
+footer h3 {font-size:17px;    margin-bottom: 5px; margin-top: 30px; }
+#myCarousel {height: auto !important; }
+.section-title {padding-bottom:35px !important;}
+.section-content {padding-top:0px !important;}
+section h2, section h1, section h3, section h4 { font-size:1.7em;}
+section {padding: 55px 0 !important;}
+.grid figure {padding: 0;}
+/* Large screens */
+@media (min-width: 1200px) {
+    .btn-outline {padding-top: 1.5em; padding-bottom:1.5em; }  
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 480px) { 
+    .btn-outline {font-size: 1em !important; }
+    .clock {width: 80px; height:80px;}
+    .col-ts-12 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 380px) { 
+
+
+
+}

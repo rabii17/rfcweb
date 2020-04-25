@@ -1,0 +1,25 @@
+.grid{padding:20px 20px 100px 20px;max-width:1300px;margin:0 auto;list-style:none;text-align:center;}
+.grid li{display:inline-block;margin-bottom:20px;text-align:left;position:relative;cursor:pointer;}
+.grid figure{margin:0;position:relative;background-color:#ffffff;padding:0;height: 250px;text-align: center;}
+.grid figure img{margin:auto;}
+.grid .fixed-height{height: 80px;max-width: 80%;width:auto;}
+.grid figcaption{position:absolute;left:0;right:0;margin-left:auto;margin-right:auto;width:80% !important;padding:20px;background:#ffffff;text-align:center;}
+.grid figcaption p{font-size:14px;}
+.grid figcaption span{color:#DB2508;}
+.grid-team figure{width:100%;padding:0;    height: 370px;}
+.grid-team figure figcaption{width:100% !important;}
+.grid-client figure figcaption{background-color:#686868;border-top:1px solid white;}
+.grid-client figure figcaption p{font-size:0.9em;}
+.grid-client figure:hover{background-color:#686868;color:white;}
+.cs-style-3 figure{overflow:hidden;}
+.cs-style-3 figure img{-webkit-transition:-webkit-transform 0.4s;-moz-transition:-moz-transform 0.4s;transition:transform 0.4s;margin-top: 80px;}
+.grid-team.cs-style-3 figure img{margin-top: 0;}
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img{-webkit-transform:translateY(-50px);-moz-transform:translateY(-50px);-ms-transform:translateY(-50px);transform:translateY(-50px);}
+.cs-style-3 figcaption{height:100px;width:100%;top:auto;bottom:0;opacity:0;-webkit-transform:translateY(100%);-moz-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);-webkit-transition:-webkit-transform 0.4s, opacity 0.1s 0.3s;-moz-transition:-moz-transform 0.4s, opacity 0.1s 0.3s;transition:transform 0.4s, opacity 0.1s 0.3s;}
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption{opacity:1;-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-ms-transform:translateY(0px);transform:translateY(0px);-webkit-transition:-webkit-transform 0.4s, opacity 0.1s;-moz-transition:-moz-transform 0.4s, opacity 0.1s;transition:transform 0.4s, opacity 0.1s;}
+.cs-style-3 figcaption a{font-size:14px;position: absolute;bottom: 50px;left: 50%;transform: translateX(-50%);display: block;text-align: justify;width: 100%;border-top: 1px solid #9d9d9d;color: #000;}
+@media screen and (max-width:31.5em){.grid{padding:10px 10px 100px 10px;}
+.grid li{}
+}
