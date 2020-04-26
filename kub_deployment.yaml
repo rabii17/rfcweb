@@ -102,19 +102,21 @@ spec:
             - containerPort: 80
               name: phpmyadmin
 ---
-apiVersion: v1
 kind: Service
 metadata:
+  # labels for the service
+  labels:
+    name: rfcweb
+  # name of the service
   name: rfcweb
 spec:
-  type: LoadBalancer
-  selector:
-    name: rfcweb
   ports:
     # the port that this service should serve on
     - port: 80
   # label keys and values that must match in order to receive traffic for this service
-
+  selector:
+    # select Deployments with the name "rfcweb"
+    name: rfcweb
 ---
 # Kubernetes API version
 apiVersion: extensions/v1beta1
