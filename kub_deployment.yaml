@@ -42,7 +42,7 @@ spec:
             - name: WORDPRESS_DB_HOST
               value: rabii2.mysql.database.azure.com
             - name: WORDPRESS_DB_NAME
-              value: db-wp
+              value: wp-db
             - name: WORDPRESS_DB_PASSWORD
               value: Aze123rty123
             - name: WORDPRESS_DB_USER
